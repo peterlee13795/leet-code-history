@@ -19,11 +19,12 @@ class Solution {
   private String groupKey(String word) {
     int len = word.length();
     int pivot = word.charAt(0);
-    StringBuilder stringBuilder = new StringBuilder();
+    char[] characters = word.toCharArray();
+    
     for (int i = 0; i < len; i++) {
-      char character = word.charAt(i);
-      stringBuilder.append((character - pivot + 26) % 26 + 'a');
+      char character = characters[i];
+      characters[i] = (char)((character - pivot + 26) % 26 + 'a');
     }
-    return stringBuilder.toString();
+    return String.valueOf(characters);
   }
 }
