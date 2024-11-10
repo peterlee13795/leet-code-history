@@ -48,7 +48,7 @@ class Solution {
         return crushedSet;
     }
 
-    void crushCandy(int[][] board, Set<Pair<Integer, Integer>> crushedSet) {
+    private void crushCandy(int[][] board, Set<Pair<Integer, Integer>> crushedSet) {
         // 대상 candy crush
         for (Pair<Integer, Integer> pair : crushedSet) {
             int ridx = pair.getKey();
@@ -57,7 +57,7 @@ class Solution {
         }
     }
 
-    void dropCandy(int[][] board) {
+    private void dropCandy(int[][] board) {
         for (int cidx = 0; cidx < colLen; cidx++) { // x축 조회
             int zeroIndex = -1;
             
