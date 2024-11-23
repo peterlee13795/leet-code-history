@@ -10,29 +10,29 @@
  */
 class Solution {
     public ListNode plusOne(ListNode head) {
-        // sentinel head
-        ListNode sentinel = new ListNode(0);
-        sentinel.next = head;
-        ListNode notNine = sentinel;
+        // 최상단 head
+        ListNode topHead = new ListNode(0);
 
-        // find the rightmost not-nine digit
-        while (head != null) {
-            if (head.val != 9) {
-                notNine = head;
-            }
-            head = head.next;
+        ListNode target = head;
+        ListNode notNine = head; // 9가 아닌 가장 오른쪽 노드
+        while (target != null) {
+            if(target.val != 9) notNine = target; // 가장 오른쪽의 8 이하
+            target = target.next; // 다음 노드 이동
         }
 
-        // increase this rightmost not-nine digit by 1
-        notNine.val++;
-        notNine = notNine.next;
-
-        // set all the following nines to zeros
-        while (notNine != null) {
-            notNine.val = 0;
-            notNine = notNine.next;
+        if(notNine == head && head.val == 9) { // 최상단이고 9 라면
+            notNine = topHead; // 1단계 추가
+            topHead.next = head;
+            head = topHead;
         }
 
-    return sentinel.val != 0 ? sentinel : sentinel.next;
-  }
+        notNine.val++; // plus one
+        target = notNine.next;
+
+        while(target != null) {
+            target.val = 0;
+            target = target.next;
+        }
+        return head;
+    }
 }
