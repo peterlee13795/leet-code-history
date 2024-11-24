@@ -2,8 +2,6 @@ class Solution {
     public String largestPalindromic(String num) {
         // len
         int len = num.length();
-        if(len == 0) return "";
-        if(len == 1) return num;
 
         // 개수 mapper
         Map<Integer, Integer> counts = new HashMap<>();
