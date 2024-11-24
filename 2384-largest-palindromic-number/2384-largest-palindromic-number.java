@@ -28,7 +28,8 @@ class Solution {
 
         // 역방향 쌓기
         Stack<Integer> stack = new Stack<>();
-        // count > 1인 것 모두 주출 & 짝수 개수 증분
+        
+        // count > 1인 것 추출 & 짝수 개수 증분
         Integer oneAppear = null;
         while (!priorityQueue.isEmpty()) {
             int val = priorityQueue.poll();
@@ -49,14 +50,8 @@ class Solution {
             return oneAppear == null ? "0" : String.valueOf(oneAppear);
         }
 
-        // count == 1 인거 1개 이상 시 추출
-        if(oneAppear != null) result.append(oneAppear);
+        
 
-        // stack을 통해 숫자 넣기
-        while (!stack.isEmpty()) {
-            result.append(stack.pop());
-        }
-
-        return result.toString();
+        return result.toString() + (oneAppear != null ? oneAppear : "") + result.reverse();
     }
 }
