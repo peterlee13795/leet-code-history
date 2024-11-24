@@ -37,9 +37,7 @@ class Solution {
                     oneAppear = val;
                 }
             }
-            for(int i = 0; i < halfCount; i++) {
-                result.append(val);
-            }
+            result.append(String.valueOf(val).repeat(Math.max(0, halfCount)));
         }
         
         boolean isLeadingZero = result.isEmpty() || result.charAt(0) == '0'; 
