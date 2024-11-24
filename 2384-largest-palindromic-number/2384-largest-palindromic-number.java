@@ -1,5 +1,5 @@
 class Solution {
-    public String largestPalindromic(String num) {
+   public String largestPalindromic(String num) {
         // len
         int len = num.length();
 
@@ -25,11 +25,8 @@ class Solution {
 
         // 답
         StringBuilder result = new StringBuilder();
-
-        // 역방향 쌓기
-        Stack<Integer> stack = new Stack<>();
         
-        // count > 1인 것 추출 & 짝수 개수 증분
+        // count > 1인 것 모두 주출 & 짝수 개수 증분
         Integer oneAppear = null;
         while (!priorityQueue.isEmpty()) {
             int val = priorityQueue.poll();
@@ -42,16 +39,17 @@ class Solution {
             }
             for(int i = 0; i < halfCount; i++) {
                 result.append(val);
-                stack.add(val);
             }
         }
-
-        if(result.isEmpty() || result.charAt(0) == '0') {
+        
+        boolean isLeadingZero = result.isEmpty() || result.charAt(0) == '0'; 
+        if(isLeadingZero) {
             return oneAppear == null ? "0" : String.valueOf(oneAppear);
         }
-
-        
-
-        return result.toString() + (oneAppear != null ? oneAppear : "") + result.reverse();
+       
+        String prefix = result.toString();
+        String postfix = result.reverse().toString();
+        String center = oneAppear != null ? String.valueOf(oneAppear) : "";
+        return String.format("%s%s%S", prefix, center, postfix);
     }
 }
