@@ -34,8 +34,9 @@ class Solution {
         boolean left = dfs(leftNode);
         boolean right = dfs(rightNode);
         
-        if(!left || !right) return false;
+        if(!left || !right) return false; // 왼쪽 & 오른쪽 중 하나라도 불일치할 경우 uni SubTree 아님
         
+        // 현재값이 왼쪽/오른쪽 값과 불일치하면 uni-sub-tree 아님
         if(leftNode != null && leftNode.val != node.val) {
             return false;
         }
