@@ -18,7 +18,6 @@ class Solution {
         if(!counts1.keySet().equals(counts2.keySet())) return false;
         
         // 조건3 target의 종류 별 개수가 word1에 존재해야 함
-        
         List<Integer> list1 = new ArrayList<>(counts1.values());
         List<Integer> list2 = new ArrayList<>(counts2.values());
         Collections.sort(list1);
