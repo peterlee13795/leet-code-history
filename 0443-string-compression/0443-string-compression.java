@@ -1,19 +1,28 @@
 class Solution {
-    public int compress(char[] chars) {
-        int i = 0, res = 0;
-        while (i < chars.length) {
-            int groupLength = 1;
-            while (i + groupLength < chars.length && chars[i + groupLength] == chars[i]) {
-                groupLength++;
+    public static int compress(char[] chars) {
+        int write = 0, read = 0;
+        
+        int len = chars.length;
+        if(len <= 1) return len;
+        
+        while(read < len) {
+            char currentChar = chars[read];
+            int count = 0;
+            
+            while(read < len && chars[read] == currentChar) {
+                count++;
+                read++;
             }
-            chars[res++] = chars[i];
-            if (groupLength > 1) {
-                for (char c : Integer.toString(groupLength).toCharArray()) {
-                    chars[res++] = c;
-                }
+            
+            chars[write++] = currentChar;
+            if(count == 1) continue;
+            
+            char[] nums = String.valueOf(count).toCharArray();
+            for(char num: nums) {
+                chars[write++] = num;
             }
-            i += groupLength;
         }
-        return res;
+        
+        return write;
     }
 }
