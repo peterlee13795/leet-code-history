@@ -1,24 +1,19 @@
 class Solution {
    public String largestPalindromic(String num) {
-        // len
-        int len = num.length();
 
         // 개수 mapper
         Map<Integer, Integer> counts = new HashMap<>();
 
-        // 우선순위 큐 (내림차순)
+        // 내림차순 큐
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Comparator.reverseOrder());
 
-        // set
-        Set<Integer> holdings = new HashSet<>();
 
         // 데이터 쌓기
-        for(int i =0 ; i < len; i ++) {
+        for(int i =0, len = num.length(); i < len; i ++) {
             int val = num.charAt(i) - '0';
             int count = counts.getOrDefault(val, 0);
             counts.put(val, count + 1);
-            if(!holdings.contains(val)) {
-                holdings.add(val);
+            if(count == 0) {
                 priorityQueue.add(val);
             }
         }
@@ -42,14 +37,15 @@ class Solution {
             }
         }
         
-        boolean isLeadingZero = result.isEmpty() || result.charAt(0) == '0'; 
+        boolean isLeadingZero = result.isEmpty() || result.charAt(0) == '0';
         if(isLeadingZero) {
             return oneAppear == null ? "0" : String.valueOf(oneAppear);
         }
        
         String prefix = result.toString();
-        String postfix = result.reverse().toString();
         String center = oneAppear != null ? String.valueOf(oneAppear) : "";
+        String postfix = result.reverse().toString();
+       
         return String.format("%s%s%S", prefix, center, postfix);
     }
 }
