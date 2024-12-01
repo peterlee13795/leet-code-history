@@ -14,35 +14,36 @@
  * }
  */
 class Solution {
+    
+    private Map<Long, Integer> prefixSum = new HashMap<>();
+    
     public int pathSum(TreeNode root, int targetSum) {
-        Map<Long, Integer> prefixSumCount = new HashMap<>();
-        // 초기값 추가: 누적합이 0인 경로는 하나 존재한다고 가정
-        prefixSumCount.put(0L, 1);
-        return dfs(root, 0L, targetSum, prefixSumCount);
+        prefixSum.put(0L, 1);
+        return preorder(root, targetSum, 0L);
     }
-
-    private int dfs(TreeNode node, long currSum, int target, Map<Long, Integer> prefixSumCount) {
-        if (node == null) {
-            return 0;
-        }
-
-        // 현재 노드까지의 누적합
-        currSum += node.val;
-
-        // 현재 누적합에서 타겟합을 뺀 값이 prefixSumCount에 몇 번 등장했는지 확인
-        int numPathsToCurr = prefixSumCount.getOrDefault(currSum - target, 0);
-
-        // 현재 경로의 누적합 추가
-        prefixSumCount.put(currSum, prefixSumCount.getOrDefault(currSum, 0) + 1);
-
-        // 좌우 서브트리 탐색
-        int result = numPathsToCurr
-                + dfs(node.left, currSum, target, prefixSumCount)
-                + dfs(node.right, currSum, target, prefixSumCount);
-
-        // 탐색 후 현재 노드의 누적합 제거 (백트래킹)
-        prefixSumCount.put(currSum, prefixSumCount.get(currSum) - 1);
-
+    
+    private int preorder(TreeNode node, int targetSum, long totalSum) {
+        if(node == null) return 0;
+        
+        // 총합 누적
+        totalSum += node.val;
+        
+        // 필요 누적 합산: 총합 누적 - target
+        long leftoverSum = totalSum - targetSum;
+        int leftoverSumCount = prefixSum.getOrDefault(leftoverSum, 0);
+        
+        // 누적합 추가
+        prefixSum.put(totalSum, prefixSum.getOrDefault(totalSum, 0) + 1);
+        
+        // 전위호출
+        int result = leftoverSumCount
+            + preorder(node.left, targetSum, totalSum)
+            + preorder(node.right, targetSum, totalSum)
+        ;
+    
+        // 탐색 후 누적합 제거 (백트래킹)
+        prefixSum.put(totalSum, prefixSum.getOrDefault(totalSum, 0) - 1);
+        
         return result;
     }
 }
