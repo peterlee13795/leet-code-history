@@ -14,55 +14,52 @@
  * }
  */
 class Solution {
+    // boundary list
+    List<Integer> boundary = new ArrayList<>();
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
-        List<Integer> boundary = new ArrayList<>();
-        if (root == null) return boundary;
-
-        // Root 노드 추가
-        if (!isLeaf(root)) boundary.add(root.val);
-
-        // 왼쪽 경계 추가
-        addLeftBoundary(root.left, boundary);
-
-        // 리프 노드 추가
-        addLeaves(root, boundary);
-
-        // 오른쪽 경계 추가 (역순)
-        addRightBoundary(root.right, boundary);
-
+        
+        if(!isLeaf(root)) boundary.add(root.val);
+        
+        addLeftBoundary(root.left);
+        
+        addBottomBoundary(root);
+        
+        addRightBoundary(root.right);
+        
         return boundary;
     }
-
-    private void addLeftBoundary(TreeNode node, List<Integer> boundary) {
-        while (node != null) {
-            if (!isLeaf(node)) boundary.add(node.val);
-            node = (node.left != null) ? node.left : node.right;
+    
+    private void addLeftBoundary(TreeNode node) {
+        while(node != null) {
+            if(!isLeaf(node)) boundary.add(node.val);
+            node = node.left != null ? node.left : node.right;
+        }
+        
+    }
+    
+    private void addBottomBoundary(TreeNode node) {
+        if(node == null) return;
+        if(isLeaf(node)) boundary.add(node.val);
+        else {
+            addBottomBoundary(node.left);
+            addBottomBoundary(node.right);
         }
     }
-
-    private void addLeaves(TreeNode node, List<Integer> boundary) {
-        if (node == null) return;
-        if (isLeaf(node)) {
-            boundary.add(node.val);
-        } else {
-            addLeaves(node.left, boundary);
-            addLeaves(node.right, boundary);
+    
+    private void addRightBoundary(TreeNode node) {
+        List<TreeNode> rights = new ArrayList<>();
+        TreeNode rightNode = node;
+        while(node != null) {
+            if(!isLeaf(node)) rights.add(node);
+            node = node.right != null ? node.right : node.left;
+        }
+        for(int i = rights.size() - 1; i >= 0; i--) {
+            boundary.add(rights.get(i).val);
         }
     }
-
-    private void addRightBoundary(TreeNode node, List<Integer> boundary) {
-        List<Integer> temp = new ArrayList<>();
-        while (node != null) {
-            if (!isLeaf(node)) temp.add(node.val);
-            node = (node.right != null) ? node.right : node.left;
-        }
-        // 역순으로 추가
-        for (int i = temp.size() - 1; i >= 0; i--) {
-            boundary.add(temp.get(i));
-        }
-    }
-
+    
     private boolean isLeaf(TreeNode node) {
         return node.left == null && node.right == null;
     }
+
 }
