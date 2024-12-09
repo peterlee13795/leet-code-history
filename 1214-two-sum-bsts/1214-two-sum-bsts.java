@@ -14,10 +14,15 @@
  * }
  */
 class Solution {
+    // node1 set
     Set<Integer> set = new HashSet<>();
+    
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
+        // node1 dfs pre-set
         dfsSet(root1);
         
+        
+        // validate if target found
         return validate(root2, target);
     }
     
