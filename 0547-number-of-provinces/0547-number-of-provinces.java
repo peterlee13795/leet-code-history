@@ -25,8 +25,7 @@ class Solution {
         if(visits[start]) return;
         visits[start] = true;
         for(int i = 0 ; i< len; i++) {
-            if(i == start) continue;
-            if(isConnected[start][i] == 0) continue;
+            if(!visits[i] && isConnected[start][i] == 0) continue;
             dfs(isConnected, i);
         }
     }
