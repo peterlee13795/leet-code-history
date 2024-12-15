@@ -18,20 +18,18 @@ class Solution {
     Set<Integer> set = new HashSet<>();
     
     public boolean twoSumBSTs(TreeNode root1, TreeNode root2, int target) {
-        // node1 dfs pre-set
-        dfsSet(root1);
+        
+        dfsSet(root1); // node1 dfs pre-set
         
         
-        // validate if target found
-        return validate(root2, target);
+        
+        return validate(root2, target); // validate if target found
     }
     
     boolean validate(TreeNode node, int target) {
         if(node == null) return false;
         
-        
         if(set.contains(target - node.val)) return true;
-        
         
         if(validate(node.left, target)) return true;
         if(validate(node.right, target)) return true;
