@@ -29,12 +29,19 @@ class Solution {
     boolean validate(TreeNode node, int target) {
         if(node == null) return false;
         
-        if(set.contains(target - node.val)) return true;
         
+        int diff = target - node.val;
+        if(set.contains(diff)) return true; // 합산값 found
+        
+        // TreeNode next = diff > node.val ? node.right : node.left;
+        // return validate(next, target);
+        
+        // 양쪽 노드 이동
         if(validate(node.left, target)) return true;
         if(validate(node.right, target)) return true;
         
         return false;
+        
     }
     
     void dfsSet(TreeNode node) {
