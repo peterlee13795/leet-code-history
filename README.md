@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/peterlee13795/leet-code-history/tree/master/0009-palindrome-number) |
+| [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/peterlee13795/leet-code-history/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 ## Backtracking
@@ -47,4 +49,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0002-add-two-numbers) |
+## Hash Table
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
