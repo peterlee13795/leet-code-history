@@ -4,7 +4,7 @@ class Solution {
         StringBuilder stringBuilder = new StringBuilder();
 
         // pairs, 1000 -> M ..
-        Map<Integer, String> pairs = new HashMap<>();
+        Map<Integer, String> pairs = new LinkedHashMap<>();
         pairs.put(1000, "M");
         pairs.put(900, "CM");
         pairs.put(500, "D");
@@ -20,8 +20,7 @@ class Solution {
         pairs.put(1, "I");
 
         // iterate from 1000 to ..
-        List<Integer> keys = pairs.keySet().stream().sorted((a, b) -> b - a).toList();
-        for(Integer key: keys) {
+        for(Integer key: pairs.keySet()) {
             // if ( > 0 ? ) append StringBuilder
             int div = num / key;
             if(div > 0) {
