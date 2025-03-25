@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 ## Sliding Window
 |  |
@@ -59,4 +60,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/peterlee13795/leet-code-history/tree/master/0005-longest-palindromic-substring) |
+| [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
