@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 ## Sliding Window
 |  |
@@ -67,4 +68,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Sorting
+|  |
+| ------- |
+| [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
