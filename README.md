@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/peterlee13795/leet-code-history/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
+| [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/peterlee13795/leet-code-history/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/peterlee13795/leet-code-history/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 ## Simulation
 |  |
