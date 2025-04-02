@@ -1,25 +1,24 @@
 class Solution {
     public int[] findPermutation(String s) {
-        Stack<Integer> stack = new Stack<>();
-        int currentIndex = -1;
+    // init (size, stack)
+    int len = s.length() + 1;
+    int cursor = 0;
+    Stack<Integer> stack = new Stack<>();
 
-        int len = s.length();
-        int[] answer = new int[len + 1];
-        for(int currentValue = 0; currentValue < len; currentValue++) {
-            if(s.charAt(currentValue) == 'I') {
-                stack.push(currentValue + 1);
-                while (!stack.isEmpty()) {
-                    answer[++currentIndex] = stack.pop();
-                }
-            } else {
-                stack.add(currentValue + 1);
-            }
-        }
-        stack.push(len + 1);
+    int[] answer = new int[len];
+
+    // iterate s
+    for (int i = 0; i < len; i++) {
+      // push stack
+      stack.add(i + 1);
+
+      // if D => continue
+      if (i == len - 1 || s.charAt(i) == 'I') {
         while (!stack.isEmpty()) {
-            answer[++currentIndex] = stack.pop();
+          answer[cursor++] = stack.pop();
         }
-
-        return answer;
+      }
     }
+    return answer;
+  }
 }
