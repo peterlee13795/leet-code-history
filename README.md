@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
+| [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 ## Sliding Window
 |  |
 | ------- |
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 ## Linked List
 |  |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
+| [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 ## Simulation
 |  |
 | ------- |
@@ -124,4 +127,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
+## Depth-First Search
+|  |
+| ------- |
+| [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 <!---LeetCode Topics End-->
