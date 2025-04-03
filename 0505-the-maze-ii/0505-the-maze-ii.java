@@ -1,72 +1,64 @@
 class Solution {
-    TreeSet<Integer>[] xWalls;
-    TreeSet<Integer>[] yWalls;
-    int[][] shortestPaths;
-    int ylen, xlen;
-    int shortest;
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
-        // init (treeMap, visits, xlen, ylen, queue)
-        shortest = Integer.MAX_VALUE;
-        this.ylen = maze.length;
-        this.xlen = maze[0].length;
-        this.shortestPaths = new int[ylen][xlen];
+    int ylen = maze.length;
+    int xlen = maze[0].length;
+    PriorityQueue<Node> queue = new PriorityQueue<>(Comparator.comparingInt(n -> n.dist));
+    int[][] shortestPaths = new int[ylen][xlen];
 
-        this.xWalls = new TreeSet[xlen];
-        this.yWalls = new TreeSet[ylen];
-        for(int i= 0 ; i < xlen; i ++) this.xWalls[i] = new TreeSet<>();
-        for(int i= 0 ; i < ylen; i ++) this.yWalls[i] = new TreeSet<>();
-
-        // iterate maze and recharge treeMap
-        for(int y =0 ; y < ylen; y++) {
-            for(int x =0 ; x < xlen; x++) {
-                shortestPaths[y][x] = Integer.MAX_VALUE;
-                if(maze[y][x] == 1) {
-                    this.yWalls[y].add(x);
-                    this.xWalls[x].add(y);
-                }
+    TreeSet<Integer>[] xWalls = new TreeSet[xlen];
+    for (int i = 0; i < xlen; i++) xWalls[i] = new TreeSet<>();
+    TreeSet<Integer>[] yWalls = new TreeSet[ylen];
+    for (int i = 0; i < ylen; i++) yWalls[i] = new TreeSet<>();
+    for (int y = 0; y < ylen; y++) {
+        for (int x = 0; x < xlen; x++) {
+            shortestPaths[y][x] = Integer.MAX_VALUE;
+            if (maze[y][x] == 1) {
+                xWalls[x].add(y);
+                yWalls[y].add(x);
             }
         }
-
-        // call dfs
-        dfs(start, destination, 0);
-
-        return shortest == Integer.MAX_VALUE ? -1 : shortest;
     }
 
-    private void dfs(int[] point, int[] destination, int dist) {
-        int y0 = point[0];
-        int x0 = point[1];
+    queue.add(new Node(start[1], start[0], 0));
 
-        // 방문여부
-        if(shortestPaths[y0][x0] <= dist) return;
+    while (!queue.isEmpty()) {
+        Node node = queue.poll();
+        if (shortestPaths[node.y][node.x] <= node.dist) continue;
+        shortestPaths[node.y][node.x] = node.dist;
 
-        shortestPaths[y0][x0] = dist;
-
-        // 목적지 확인
-        if(y0 == destination[0] && x0 == destination[1]) {
-            shortest = Math.min(shortest, dist);
-            return;
-        }
-
-        // 4방향 이동
-        // lx
-        Integer lx = yWalls[y0].floor(x0);
+        // left
+        Integer lx = yWalls[node.y].floor(node.x);
         lx = lx == null ? 0 : lx + 1;
-        dfs(new int[] {y0, lx}, destination, dist + x0 - lx);
+        queue.add(new Node(lx, node.y, node.dist + (node.x - lx)));
 
-        // rx
-        Integer rx = yWalls[y0].ceiling(x0);
+        // right
+        Integer rx = yWalls[node.y].ceiling(node.x);
         rx = rx == null ? xlen - 1 : rx - 1;
-        dfs(new int[] {y0, rx}, destination, dist + rx - x0);
+        queue.add(new Node(rx, node.y, node.dist + (rx - node.x)));
 
-        // ty
-        Integer ty = xWalls[x0].floor(y0);
+        // top
+        Integer ty = xWalls[node.x].floor(node.y);
         ty = ty == null ? 0 : ty + 1;
-        dfs(new int[] {ty, x0}, destination, dist + y0 - ty);
+        queue.add(new Node(node.x, ty, node.dist + (node.y - ty)));
 
-        // by
-        Integer by = xWalls[x0].ceiling(y0);
+        // bottom
+        Integer by = xWalls[node.x].ceiling(node.y);
         by = by == null ? ylen - 1 : by - 1;
-        dfs(new int[] {by, x0}, destination, dist + by - y0);
+        queue.add(new Node(node.x, by, node.dist + (by - node.y)));
     }
+
+    int result = shortestPaths[destination[0]][destination[1]];
+    return result == Integer.MAX_VALUE ? -1 : result;
+}
+
+static class Node {
+    int x, y, dist;
+
+    public Node(int x, int y, int dist) {
+        this.x = x;
+        this.y = y;
+        this.dist = dist;
+    }
+}
+
 }
