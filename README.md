@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Sliding Window
 |  |
 | ------- |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Sorting
 |  |
 | ------- |
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Shortest Path
 |  |
 | ------- |
