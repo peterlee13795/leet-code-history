@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [1101-parallel-courses](https://github.com/peterlee13795/leet-code-history/tree/master/1101-parallel-courses) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -150,4 +151,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+## Topological Sort
+|  |
+| ------- |
+| [1101-parallel-courses](https://github.com/peterlee13795/leet-code-history/tree/master/1101-parallel-courses) |
 <!---LeetCode Topics End-->
