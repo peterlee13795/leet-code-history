@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
+| [1213-handshakes-that-dont-cross](https://github.com/peterlee13795/leet-code-history/tree/master/1213-handshakes-that-dont-cross) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
+| [1213-handshakes-that-dont-cross](https://github.com/peterlee13795/leet-code-history/tree/master/1213-handshakes-that-dont-cross) |
 ## Array
 |  |
 | ------- |
