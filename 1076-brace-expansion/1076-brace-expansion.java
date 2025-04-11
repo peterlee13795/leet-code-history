@@ -1,70 +1,54 @@
 class Solution {
-  // char list by curly brace
-  List<Character[]> expandChars;
+    public String[] expand(String s) {
+    // init characters: list<list<char>>, answer: character[], isCurly: boolean, answer: list<string>, len
+    List<List<Character>> groupedCharacters = new ArrayList<>();
+    boolean isCurly = false;
+    int len = s.length();
 
-  // each answer char array
-  char[] expandAnswer;
+    List<Character> characters = new ArrayList<>();
 
-  List<String> expandAnswers;
+    // charge characters
+    for(int i = 0 ; i < len ; i++) {
+      char c0 = s.charAt(i);
 
-  public String[] expand(String s) {
-    // init
-    expandChars = new ArrayList<>();
-    expandAnswers = new ArrayList<>();
-
-    boolean open = false;
-    // parse s to [['a','b'],['c']...]
-    List<Character> item = new ArrayList<>();
-    for (int i = 0, len = s.length(); i < len; i++) {
-      char c = s.charAt(i);
-      if (c == '{') {
-        open = true;
-        if (!item.isEmpty()) {
-          expandChars.add(item.toArray(new Character[0]));
-        }
-        item = new ArrayList<>();
-      } else if (c == '}') {
-        open = false;
-        if (!item.isEmpty()) {
-          expandChars.add(item.toArray(new Character[0]));
-        }
-        item = new ArrayList<>();
-      } else if (c == ',') {
+      if(c0 == ',') {
         continue;
+      } else if(c0 == '{') {
+        isCurly = true;
+        characters = new ArrayList<>();
+        groupedCharacters.add(characters);
+      } else if (c0 == '}') {
+        isCurly = false;
+      } else if(isCurly) {
+        characters.add(c0);
       } else {
-        item.add(c);
-        if (!open) {
-          if (!item.isEmpty()) {
-            expandChars.add(item.toArray(new Character[0]));
-          }
-          item = new ArrayList<>();
-        }
+        groupedCharacters.add(Collections.singletonList(c0));
       }
     }
 
-    expandAnswer = new char[expandChars.size()];
+    // init char[] answer = new char[characters.size()];
+    List<String> answer = new ArrayList<>();
+    char[] answerPath = new char[groupedCharacters.size()];
 
-    // dfs
-    dfs(0);
+    // dfs call
+    dfs(groupedCharacters, answer, answerPath, 0);
 
-    // sort & toArray
-    return expandAnswers.stream().sorted().toArray(String[]::new);
+    // return list to array
+    Collections.sort(answer);
+    return answer.toArray(new String[answer.size()]);
   }
 
-  private void dfs(int index) {
-    // iterate chars
-    boolean isEnd = index + 1 == expandChars.size();
-    for (Character expandChar : expandChars.get(index)) {
-      expandAnswer[index] = expandChar;
-
-      if (isEnd) { // if len == index+1, then add to expandAnswers
-        expandAnswers.add(new String(expandAnswer));
-      } else { // next dfs
-        dfs(index + 1);
-      }
-
+  void dfs(List<List<Character>> groupedCharacters, List<String> answer, char[] answerPath, int index) {
+    if(index == groupedCharacters.size()) {
+      answer.add(new String(answerPath));
+      return;
     }
 
+    // iterate characters
+    for(Character character: groupedCharacters.get(index)) {
+      answerPath[index] = character;
+      dfs(groupedCharacters, answer, answerPath, index + 1);
+    }
 
   }
 }
