@@ -1,32 +1,27 @@
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
-        // three pointer
+    Arrays.sort(nums); // 정렬 필수
+    int closest = nums[0] + nums[1] + nums[2];
 
-        // init(closest, size)
-        int closest = Integer.MAX_VALUE;
-        int size = nums.length;
-        int answer = 0;
+    for (int i = 0; i < nums.length - 2; i++) {
+        int left = i + 1;
+        int right = nums.length - 1;
 
+        while (left < right) {
+            int sum = nums[i] + nums[left] + nums[right];
 
-        // iterate i,j,k
+            if (Math.abs(target - sum) < Math.abs(target - closest)) {
+                closest = sum;
+            }
 
-        // for(0 <= i < size - 2)
-        for(int i = 0; i < size - 2; i++) {
-            // for(i < j < size - 1
-            for(int j = i + 1; j < size - 1; j++) {
-                int twoSum = nums[i] + nums[j];
-                // for(j < k < size)
-                for(int k = j + 1; k < size; k++) {
-                    int threeSum = twoSum + nums[k];
-                    int diff = Math.abs(target - threeSum);
-                    if(closest > diff) {
-                        closest = diff;
-                        answer = threeSum;
-                    }
-                }
+            if (sum < target) {
+                left++; // 더 큰 합을 만들기 위해
+            } else {
+                right--; // 더 작은 합을 만들기 위해
             }
         }
-
-        return answer;
     }
+
+    return closest;
+}
 }
