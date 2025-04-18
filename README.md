@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
+| [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/peterlee13795/leet-code-history/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -179,4 +180,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/peterlee13795/leet-code-history/tree/master/0277-find-the-celebrity) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
 <!---LeetCode Topics End-->
