@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/peterlee13795/leet-code-history/tree/master/0071-simplify-path) |
+| [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/peterlee13795/leet-code-history/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
+| [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0277-find-the-celebrity](https://github.com/peterlee13795/leet-code-history/tree/master/0277-find-the-celebrity) |
 ## Greedy
 |  |
