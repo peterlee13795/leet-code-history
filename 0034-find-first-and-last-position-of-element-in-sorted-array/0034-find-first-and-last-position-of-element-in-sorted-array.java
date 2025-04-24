@@ -1,32 +1,48 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int first = findBound(nums, target, true);
-        int last = findBound(nums, target, false);
-        return new int[] {first, last};
-    }
-
-    private int findBound(int[] nums, int target, boolean isFirst) {
+        if(nums.length == 0) return new int [] {-1, -1};
+        // init left, right
         int left = 0;
         int right = nums.length - 1;
-        int bound = -1;
 
+        // binary search (logn)
         while (left <= right) {
+            // get mid & value
             int mid = left + (right - left) / 2;
 
-            if (nums[mid] == target) {
-                bound = mid;
-                if (isFirst) {
-                    right = mid - 1;
-                } else {
-                    left = mid + 1;
-                }
-            } else if (nums[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid - 1;
+            // if value == target => find most left & right
+            if(nums[mid] == target) {
+                return sameValues(nums, mid);
             }
+
+            // if value < target => left = mid + 1
+            if(nums[mid] < target) left = mid + 1;
+            // else right = mid - 1
+            else right = mid - 1;
         }
 
-        return bound;
+        // return [-1, -1]
+        return new int[] {-1, -1};
+    }
+
+    int[] sameValues(int[] nums, int pivot) {
+        int left = pivot;
+        int right = pivot;
+        boolean leftValid = true;
+        boolean rightValid = true;
+        while (leftValid || rightValid) {
+            leftValid = left > 0 && nums[left - 1] == nums[left];
+            rightValid = right < nums.length - 1 && nums[right + 1] == nums[right];
+            if(leftValid) {
+                left--;
+            }
+
+            if(rightValid) {
+                right++;
+            }
+
+        }
+        // find left & right
+        return new int[] {left, right};
     }
 }
