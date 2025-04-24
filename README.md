@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
+| [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/peterlee13795/leet-code-history/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
+| [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0277-find-the-celebrity](https://github.com/peterlee13795/leet-code-history/tree/master/0277-find-the-celebrity) |
 ## Greedy
 |  |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/peterlee13795/leet-code-history/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
+| [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
@@ -137,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/peterlee13795/leet-code-history/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
+| [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 ## Prefix Sum
 |  |
 | ------- |
