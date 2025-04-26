@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/peterlee13795/leet-code-history/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 ## Prefix Sum
