@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
@@ -111,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -136,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
@@ -154,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
 ## Prefix Sum
@@ -218,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
+| [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
 ## Divide and Conquer
 |  |
