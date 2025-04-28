@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0274-h-index](https://github.com/peterlee13795/leet-code-history/tree/master/0274-h-index) |
+| [0275-h-index-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0275-h-index-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/peterlee13795/leet-code-history/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
@@ -151,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
+| [0275-h-index-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0275-h-index-ii) |
 ## Prefix Sum
 |  |
 | ------- |
