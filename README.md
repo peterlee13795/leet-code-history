@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/peterlee13795/leet-code-history/tree/master/0540-single-element-in-a-sorted-array) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Sliding Window
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0362-design-hit-counter](https://github.com/peterlee13795/leet-code-history/tree/master/0362-design-hit-counter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0456-132-pattern](https://github.com/peterlee13795/leet-code-history/tree/master/0456-132-pattern) |
+| [0540-single-element-in-a-sorted-array](https://github.com/peterlee13795/leet-code-history/tree/master/0540-single-element-in-a-sorted-array) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 ## Prefix Sum
 |  |
