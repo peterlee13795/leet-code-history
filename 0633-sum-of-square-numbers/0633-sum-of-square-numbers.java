@@ -1,25 +1,24 @@
 class Solution {
     public boolean judgeSquareSum(int c) {
-        // 제한 n^(1/2)
-        int limit = (int) Math.sqrt(c);
+        // 제한 구하기
+        int limit = (int)Math.sqrt(c);
 
-        // 반복문 a: 1 ~ 제한
-        for(int a = 0 ; a <= limit; a++) {
-            long aPower = a * a;
-            int left = 0;
-            int right = limit;
-            // 이진탐색을 통해 b 찾기
-            while(left <= right) {
-                int mid = left + (right - left) / 2;
-                long bPower = mid * mid;
-                long sum = aPower + bPower;
-                if(sum == c) return true;
-                else if (sum < c) left = mid + 1;
-                else right = mid - 1;
-            }
+        // 투포인터 (양끝), a = 0, b = limit
+        long a = 0;
+        long b = limit;
+        
+        // 투포인터 반복
+        while(a <= b) {
+            // sum = a^2 + b^2 
+            long sum = (a * a) + (b * b);
+
+            // if(sum == c) return true
+            if(sum == c) return true;
+            // else if(sum > c) => b--
+            else if (sum > c) b--;
+            // else a++
+            else a++;
         }
-
-        // return false
         return false;
     }
 }
