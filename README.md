@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
+| [0755-reach-a-number](https://github.com/peterlee13795/leet-code-history/tree/master/0755-reach-a-number) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/peterlee13795/leet-code-history/tree/master/0729-my-calendar-i) |
+| [0755-reach-a-number](https://github.com/peterlee13795/leet-code-history/tree/master/0755-reach-a-number) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 ## Prefix Sum
 |  |
