@@ -1,20 +1,29 @@
 class MyCalendar {
-    List<int[]> books; // 0: 시작, 1: 종료
-
+    TreeMap<Integer, Integer> books;
     public MyCalendar() {
-        books = new ArrayList<>();
+        books = new TreeMap<>();
     }
     
     public boolean book(int startTime, int endTime) {
-        // books 반복문, 시간복잡도 o(n)
-        for(int[] book: books) {
-            // 신규_시작 < 기존_종료 && 신규_종료 > 기존_시작
-            if(startTime < book[1] && endTime > book[0]) return false;
-        }
+        // 평균시간복잡도: log(n)
 
-        books.add(new int[] {startTime, endTime});
-        // 충돌 조건 없음
+        // TreeMap: 레드블랙트리로써, 탐색에는 log(n) 지원
+
+        // case1: treeMap의 floorKey를 이용해 기존_시작, 기존_종료 확인 => 기존_시작은 신규_시작보다 같거나 작으므로, 기존_종료가 신규_시작보다 크다면 겹침
+        Integer originStartTime_1 = books.floorKey(startTime);
+        if(originStartTime_1 != null && books.get(originStartTime_1) > startTime) return false;
+
+        // case2: treeMap의 ceilingKey를 이용해 기존_시작, 기존_종료 확인 => 기존_시작은 신규_시작보다 같거나 크므로, 기존_시작이 신규_종료보다 작다면 겹침
+        Integer originStartTime_2 = books.ceilingKey(startTime);
+        if(originStartTime_2 != null && originStartTime_2 < endTime) return false;
+
+        // 통과되면, treeMap에 삽입
+        books.put(startTime, endTime);
+
+        // return true
         return true;
+
+        
     }
 }
 
