@@ -14,7 +14,6 @@ public class Solution {
 
                 if (ageB <= ageA * 0.5 + 7) continue;
                 if (ageB > ageA) continue;
-                if (ageB > 100 && ageA < 100) continue; // 추가된 조건!
 
                 if (ageA == ageB) {
                     total += count[ageA] * (count[ageA] - 1); // 자기 자신 제외
