@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
+| [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/peterlee13795/leet-code-history/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
+| [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 ## Breadth-First Search
 |  |
@@ -281,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
