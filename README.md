@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/peterlee13795/leet-code-history/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/peterlee13795/leet-code-history/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/peterlee13795/leet-code-history/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0039-combination-sum) |
+| [0045-jump-game-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
@@ -162,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
