@@ -1,22 +1,15 @@
 class Solution {
-public int jump(int[] nums) {
-    // The starting range of the first jump is [0, 0]
-    int answer = 0;
-    int n = nums.length;
-    int curEnd = 0, curFar = 0;
-
-    for (int i = 0; i < n - 1; ++i) {
-      // Update the farthest reachable index of this jump.
-      curFar = Math.max(curFar, i + nums[i]);
-
-      // If we finish the starting range of this jump,
-      // Move on to the starting range of the next jump.
-      if (i == curEnd) {
-        answer++;
-        curEnd = curFar;
-      }
+    public int jump(int[] nums) {
+        int jumpCount = 0;
+        int currentTargetIndex = 0;
+        int nextTargetIndex = 0;
+        for (int i = 0, len = nums.length; i < len - 1; i++) {
+            nextTargetIndex = Math.max(nextTargetIndex, i + nums[i]); // jump 가능한 최대 위치
+            if (i == currentTargetIndex) { // 점프 위치에 닿으면 + 1
+                currentTargetIndex = nextTargetIndex;
+                jumpCount++;
+            }
+        }
+        return jumpCount;
     }
-
-    return answer;
-  }
 }
