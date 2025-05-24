@@ -1,21 +1,24 @@
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-        int len = flowerbed.length;
+        if(n == 0) return true;
+        // 반복문 (flowerbed)
+        for(int i = 0, limit = flowerbed.length - 1; i <= limit; i++) {
+            if(flowerbed[i] != 0) continue;
 
-        for (int i = 0; i < len; i++) {
-            if (flowerbed[i] == 0) {
-                boolean leftEmpty = (i == 0) || (flowerbed[i - 1] == 0);
-                boolean rightEmpty = (i == len - 1) || (flowerbed[i + 1] == 0);
-
-                if (leftEmpty && rightEmpty) {
-                    flowerbed[i] = 1; // 꽃 심기
-                    n--;
-
-                    if (n <= 0) return true;
-                }
-            }
+            // 왼쪽 empty 여부 (i == 0 || flowerbed[i-1] == 0)
+            // 오른쪽 empty 여부 (i == len - 1 || flowerbed[i+1] == 0)
+            boolean leftEmpty = i == 0 || flowerbed[i-1] == 0;
+            boolean rightEmpty = i == limit || flowerbed[i+1] == 0;
+            if(leftEmpty && rightEmpty) {
+                // 왼쪽empty && 오른쪽empty
+                // 심기 flowerbed[i] = 1
+                // n--
+                flowerbed[i] = 1;
+                if(--n == 0) return true;
+            }   
         }
 
-        return n <= 0;
+        // 반복문 종료되면 n <= 0 여부 검증으로 return
+        return n == 0;
     }
 }
