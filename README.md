@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
+| [0670-maximum-swap](https://github.com/peterlee13795/leet-code-history/tree/master/0670-maximum-swap) |
 | [0755-reach-a-number](https://github.com/peterlee13795/leet-code-history/tree/master/0755-reach-a-number) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0605-can-place-flowers](https://github.com/peterlee13795/leet-code-history/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
+| [0670-maximum-swap](https://github.com/peterlee13795/leet-code-history/tree/master/0670-maximum-swap) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Sorting
 |  |
