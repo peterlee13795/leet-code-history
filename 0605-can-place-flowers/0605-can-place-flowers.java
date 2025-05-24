@@ -1,6 +1,5 @@
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
-        if(n == 0) return true;
         // 반복문 (flowerbed)
         for(int i = 0, limit = flowerbed.length - 1; i <= limit; i++) {
             if(flowerbed[i] != 0) continue;
@@ -19,6 +18,6 @@ class Solution {
         }
 
         // 반복문 종료되면 n <= 0 여부 검증으로 return
-        return n == 0;
+        return n <= 0;
     }
 }
