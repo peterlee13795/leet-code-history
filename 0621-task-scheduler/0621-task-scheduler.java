@@ -1,22 +1,25 @@
 class Solution {
     public int leastInterval(char[] tasks, int n) {
-        int[] freq = new int[26];
-        for (char task : tasks) {
-            freq[task - 'A']++;
-        }
+        // init (frequents)
+        int[] frequents = new int[26];
+        for(char task: tasks) frequents[task - 'A']++;
 
-        Arrays.sort(freq);
-        int maxFreq = freq[25]; // 가장 많이 나온 작업 수
+        // 가장 다양하게 나온 종류 확인
+        Arrays.sort(frequents);
+        int maxFrequent = frequents[25];
         int maxCount = 1;
-        for (int i = 24; i >= 0; i--) {
-            if (freq[i] != maxFreq) break;
+        for(int i = 24; i >= 0 ;i--) {
+            if(maxFrequent != frequents[i]) break;
             maxCount++;
         }
 
-        int partCount = maxFreq - 1;
-        int partLength = n + 1;
-        int emptySlots = partCount * partLength + maxCount;
+        // 반복수 = 최대수 - 1
+        // 1회반복 = n + 1
 
-        return Math.max(tasks.length, emptySlots);
+        // 결과값 = 반복수 * 1회반복 + 최대수
+        int emptySlots = (maxFrequent -1) * (n + 1) + maxCount;
+
+        // return Math.max(결과값, length);
+        return Math.max(emptySlots, tasks.length);
     }
 }
