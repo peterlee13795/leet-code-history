@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/peterlee13795/leet-code-history/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/peterlee13795/leet-code-history/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
 | [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/peterlee13795/leet-code-history/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/peterlee13795/leet-code-history/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/peterlee13795/leet-code-history/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/peterlee13795/leet-code-history/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
@@ -148,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/peterlee13795/leet-code-history/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/peterlee13795/leet-code-history/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/peterlee13795/leet-code-history/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
