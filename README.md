@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
+| [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
 ## Sliding Window
 |  |
 | ------- |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
+| [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
 ## Backtracking
 |  |
 | ------- |
@@ -258,12 +260,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
+| [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
+| [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
 ## Matrix
 |  |
 | ------- |
