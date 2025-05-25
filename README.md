@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/peterlee13795/leet-code-history/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/peterlee13795/leet-code-history/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
 | [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/peterlee13795/leet-code-history/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
@@ -377,4 +379,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
