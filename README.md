@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
 | [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/peterlee13795/leet-code-history/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/peterlee13795/leet-code-history/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/peterlee13795/leet-code-history/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/peterlee13795/leet-code-history/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/peterlee13795/leet-code-history/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
@@ -288,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0071-simplify-path](https://github.com/peterlee13795/leet-code-history/tree/master/0071-simplify-path) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/peterlee13795/leet-code-history/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0456-132-pattern](https://github.com/peterlee13795/leet-code-history/tree/master/0456-132-pattern) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
