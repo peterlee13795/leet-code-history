@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/peterlee13795/leet-code-history/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/peterlee13795/leet-code-history/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
@@ -168,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/peterlee13795/leet-code-history/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/peterlee13795/leet-code-history/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/peterlee13795/leet-code-history/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/peterlee13795/leet-code-history/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
