@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
@@ -391,10 +392,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
+| [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 ## Combinatorics
 |  |
