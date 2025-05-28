@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/peterlee13795/leet-code-history/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/peterlee13795/leet-code-history/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/peterlee13795/leet-code-history/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/peterlee13795/leet-code-history/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/peterlee13795/leet-code-history/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
@@ -394,4 +396,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/peterlee13795/leet-code-history/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
