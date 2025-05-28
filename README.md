@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
@@ -317,12 +318,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
 | [0419-battleships-in-a-board](https://github.com/peterlee13795/leet-code-history/tree/master/0419-battleships-in-a-board) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
 | [0277-find-the-celebrity](https://github.com/peterlee13795/leet-code-history/tree/master/0277-find-the-celebrity) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
 | [1101-parallel-courses](https://github.com/peterlee13795/leet-code-history/tree/master/1101-parallel-courses) |
@@ -343,6 +346,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
 | [1101-parallel-courses](https://github.com/peterlee13795/leet-code-history/tree/master/1101-parallel-courses) |
 ## Interactive
 |  |
