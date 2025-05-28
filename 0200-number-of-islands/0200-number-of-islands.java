@@ -29,7 +29,6 @@ class Solution {
         int x1 = x - 1;
         if(y0 < m && grid[y0][x] == '1') dfs(grid, y0, x);
         if(x0 < n && grid[y][x0] == '1') dfs(grid, y, x0);
-        
         if(y1 >= 0 && grid[y1][x] == '1') dfs(grid, y1, x);
         if(x1 >= 0 && grid[y][x1] == '1') dfs(grid, y, x1);
     }
