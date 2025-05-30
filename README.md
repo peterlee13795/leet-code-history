@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0209-minimum-size-subarray-sum) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/peterlee13795/leet-code-history/tree/master/0316-remove-duplicate-letters) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
 ## Two Pointers
