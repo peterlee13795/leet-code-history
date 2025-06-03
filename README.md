@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/peterlee13795/leet-code-history/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/peterlee13795/leet-code-history/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/peterlee13795/leet-code-history/tree/master/0072-edit-distance) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0032-longest-valid-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/peterlee13795/leet-code-history/tree/master/0071-simplify-path) |
+| [0072-edit-distance](https://github.com/peterlee13795/leet-code-history/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/peterlee13795/leet-code-history/tree/master/0316-remove-duplicate-letters) |
