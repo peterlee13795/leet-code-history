@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/peterlee13795/leet-code-history/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/peterlee13795/leet-code-history/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/peterlee13795/leet-code-history/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/peterlee13795/leet-code-history/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/peterlee13795/leet-code-history/tree/master/0316-remove-duplicate-letters) |
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/peterlee13795/leet-code-history/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/peterlee13795/leet-code-history/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/peterlee13795/leet-code-history/tree/master/0089-gray-code) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 ## Breadth-First Search
@@ -294,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -323,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
