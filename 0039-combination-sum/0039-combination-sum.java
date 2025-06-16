@@ -7,7 +7,7 @@ class Solution {
         size = candidates.length;
 
         // sort
-        Arrays.sort(candidates);
+        Arrays.sort(candidates); // o(n*logn)
 
         // backtrack
         backtrack(candidates, target, new ArrayList<>(), 0, 0);
@@ -17,7 +17,7 @@ class Solution {
     }
 
     private void backtrack(int[] candidates, int target, List<Integer> nodes, int sum, int start) {
-        // iterate candidates
+        // iterate candidates => o(n * nodes.size)
         for(int i = start; i < size; i++) {
             int candidate = candidates[i];
             // add new num to sum
