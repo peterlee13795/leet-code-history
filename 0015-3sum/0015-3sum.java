@@ -1,38 +1,36 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-    // init (answer, length)
-    List<List<Integer>> answer = new ArrayList<>();
-
-
-    // remove duplicated values (to hashSet)
-    Set<Integer> sets = new HashSet<>();
-    for(int num: nums) { // o(n)
-      sets.add(num);
-    }
-    // sort nums & to list
-    List<Integer> sorted = sets.stream().sorted().toList(); // o(nlong)
-    int len = sorted.size();
-
-    // iterate from 0 to n-2
-    for(int i =0 ; i < len - 2; i ++) { // o(n^2)
-      int fixed = sorted.get(i);
-      int lindex = i + 1;
-      int rindex = len - 1;
-
-      while (lindex < rindex) {
-        int sum = fixed + sorted.get(lindex) + sorted.get(rindex);
-        if(sum == 0) {
-          answer.add(Arrays.asList(fixed, sorted.get(lindex), sorted.get(rindex)));
-          lindex++;
-          rindex--;
-        } else if (sum < 0) {
-          lindex++;
-        } else {
-          rindex--;
+        List<List<Integer>> answer = new ArrayList<>();
+        int len = nums.length;
+        
+        // 정렬
+        Arrays.sort(nums);
+        
+        // 고정값 반복문 (중복값 방지)
+        for(int i =0; i < len; i++) {
+            
+            if(i > 0 && nums[i] == nums[i - 1]) continue;
+            
+            // 투포인트
+            int left = i+1, right = len - 1;
+            while(left < right) {
+                
+                // 투포인트 증분
+                int sum = nums[i] + nums[left] + nums[right];
+                if(sum < 0) left++;
+                else if (sum > 0) right--;
+                else {
+                    answer.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    left++;
+                    right--;
+                    
+                    
+                    while(left > i+1 && left < right && nums[left] == nums[left-1]) left++;
+                    while(right < len - 1 && left < right && nums[right] == nums[right+1]) right--;
+                }
+            }
         }
-      }
+        
+        return answer;
     }
-    
-    return answer;
-  }
 }
