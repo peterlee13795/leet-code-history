@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/peterlee13795/leet-code-history/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/peterlee13795/leet-code-history/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/peterlee13795/leet-code-history/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/peterlee13795/leet-code-history/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/peterlee13795/leet-code-history/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/peterlee13795/leet-code-history/tree/master/0027-remove-element) |
@@ -230,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/peterlee13795/leet-code-history/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/peterlee13795/leet-code-history/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/peterlee13795/leet-code-history/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/peterlee13795/leet-code-history/tree/master/0049-group-anagrams) |
