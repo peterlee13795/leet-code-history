@@ -17,7 +17,7 @@ class Solution {
                     dp[i][j] = dp[i-1][j-1];
                     continue;
                 }
-                // 삽입,삭제,교체 중 가장 최소 교체값 찾기
+                // 삽입,삭제,교체 중 최소 값 찾기
                 dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1]);
                 dp[i][j] = Math.min(dp[i][j], dp[i-1][j-1]);
                 dp[i][j] += 1;
