@@ -15,8 +15,6 @@
  */
 class Solution {
     
-    
-    
     public int largestBSTSubtree(TreeNode root) {
         return postorder(root).size;
     }
@@ -30,7 +28,7 @@ class Solution {
         // left, right
         SubTree leftTree = postorder(node.left);
         SubTree rightTree = postorder(node.right);
-        boolean isSubTree = leftTree.isSubTree && rightTree.isSubTree && leftTree.max < node.val && rightTree.min > node.val;
+        boolean isSubTree = leftTree.isSubTree && rightTree.isSubTree && leftTree.max < node.val && rightTree.min > node.val; // 서브트리 여부 검증
         if(isSubTree) return new SubTree(
             true
             , leftTree.size + rightTree.size + 1
@@ -41,7 +39,7 @@ class Solution {
         return new SubTree(false, Math.max(leftTree.size, rightTree.size), 0, 0);
     }
     
-    
+    // 서브트리, 여부,최대,최소,사이즈
     static class SubTree {
         boolean isSubTree;
         int max = Integer.MIN_VALUE;
