@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0392-is-subsequence) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1213-handshakes-that-dont-cross](https://github.com/peterlee13795/leet-code-history/tree/master/1213-handshakes-that-dont-cross) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Array
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/peterlee13795/leet-code-history/tree/master/0729-my-calendar-i) |
 | [0852-friends-of-appropriate-ages](https://github.com/peterlee13795/leet-code-history/tree/master/0852-friends-of-appropriate-ages) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/peterlee13795/leet-code-history/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -128,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## String
 |  |
 | ------- |
@@ -295,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/peterlee13795/leet-code-history/tree/master/0729-my-calendar-i) |
 | [0755-reach-a-number](https://github.com/peterlee13795/leet-code-history/tree/master/0755-reach-a-number) |
 | [0852-friends-of-appropriate-ages](https://github.com/peterlee13795/leet-code-history/tree/master/0852-friends-of-appropriate-ages) |
@@ -459,4 +463,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0333-largest-bst-subtree](https://github.com/peterlee13795/leet-code-history/tree/master/0333-largest-bst-subtree) |
+## Rolling Hash
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Hash Function
+|  |
+| ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
 <!---LeetCode Topics End-->
