@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1196-filling-bookcase-shelves](https://github.com/peterlee13795/leet-code-history/tree/master/1196-filling-bookcase-shelves) |
 | [1213-handshakes-that-dont-cross](https://github.com/peterlee13795/leet-code-history/tree/master/1213-handshakes-that-dont-cross) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Array
@@ -118,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0882-peak-index-in-a-mountain-array](https://github.com/peterlee13795/leet-code-history/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
+| [1196-filling-bookcase-shelves](https://github.com/peterlee13795/leet-code-history/tree/master/1196-filling-bookcase-shelves) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
 | [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
