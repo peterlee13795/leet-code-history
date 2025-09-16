@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0276-paint-fence](https://github.com/peterlee13795/leet-code-history/tree/master/0276-paint-fence) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
 | [0333-largest-bst-subtree](https://github.com/peterlee13795/leet-code-history/tree/master/0333-largest-bst-subtree) |
+| [0392-is-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0392-is-subsequence) |
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [1213-handshakes-that-dont-cross](https://github.com/peterlee13795/leet-code-history/tree/master/1213-handshakes-that-dont-cross) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/peterlee13795/leet-code-history/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/peterlee13795/leet-code-history/tree/master/0316-remove-duplicate-letters) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0392-is-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0392-is-subsequence) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
@@ -214,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0259-3sum-smaller](https://github.com/peterlee13795/leet-code-history/tree/master/0259-3sum-smaller) |
 | [0277-find-the-celebrity](https://github.com/peterlee13795/leet-code-history/tree/master/0277-find-the-celebrity) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
+| [0392-is-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/peterlee13795/leet-code-history/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
