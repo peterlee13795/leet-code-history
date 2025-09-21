@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 ## String
 |  |
 | ------- |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
+| [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
 | [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
+| [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 ## Two Pointers
 |  |
 | ------- |
