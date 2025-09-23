@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0723-candy-crush](https://github.com/peterlee13795/leet-code-history/tree/master/0723-candy-crush) |
 | [0729-my-calendar-i](https://github.com/peterlee13795/leet-code-history/tree/master/0729-my-calendar-i) |
 | [0852-friends-of-appropriate-ages](https://github.com/peterlee13795/leet-code-history/tree/master/0852-friends-of-appropriate-ages) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/peterlee13795/leet-code-history/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0633-sum-of-square-numbers) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
+| [0723-candy-crush](https://github.com/peterlee13795/leet-code-history/tree/master/0723-candy-crush) |
 | [0852-friends-of-appropriate-ages](https://github.com/peterlee13795/leet-code-history/tree/master/0852-friends-of-appropriate-ages) |
 ## Greedy
 |  |
@@ -335,10 +337,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0419-battleships-in-a-board](https://github.com/peterlee13795/leet-code-history/tree/master/0419-battleships-in-a-board) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [0723-candy-crush](https://github.com/peterlee13795/leet-code-history/tree/master/0723-candy-crush) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
+| [0723-candy-crush](https://github.com/peterlee13795/leet-code-history/tree/master/0723-candy-crush) |
 ## Union Find
 |  |
 | ------- |
