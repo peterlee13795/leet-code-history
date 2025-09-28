@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0651-4-keys-keyboard](https://github.com/peterlee13795/leet-code-history/tree/master/0651-4-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/peterlee13795/leet-code-history/tree/master/0670-maximum-swap) |
 | [0755-reach-a-number](https://github.com/peterlee13795/leet-code-history/tree/master/0755-reach-a-number) |
+| [0785-basic-calculator-iii](https://github.com/peterlee13795/leet-code-history/tree/master/0785-basic-calculator-iii) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
 | [1090-armstrong-number](https://github.com/peterlee13795/leet-code-history/tree/master/1090-armstrong-number) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
+| [0785-basic-calculator-iii](https://github.com/peterlee13795/leet-code-history/tree/master/0785-basic-calculator-iii) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1131-count-substrings-with-only-one-distinct-letter](https://github.com/peterlee13795/leet-code-history/tree/master/1131-count-substrings-with-only-one-distinct-letter) |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/peterlee13795/leet-code-history/tree/master/0002-add-two-numbers) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
+| [0785-basic-calculator-iii](https://github.com/peterlee13795/leet-code-history/tree/master/0785-basic-calculator-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -359,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0456-132-pattern](https://github.com/peterlee13795/leet-code-history/tree/master/0456-132-pattern) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
+| [0785-basic-calculator-iii](https://github.com/peterlee13795/leet-code-history/tree/master/0785-basic-calculator-iii) |
 ## Depth-First Search
 |  |
 | ------- |
