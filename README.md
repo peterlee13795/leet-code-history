@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0487-max-consecutive-ones-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0487-max-consecutive-ones-ii) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [0531-lonely-pixel-i](https://github.com/peterlee13795/leet-code-history/tree/master/0531-lonely-pixel-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/peterlee13795/leet-code-history/tree/master/0540-single-element-in-a-sorted-array) |
 | [0605-can-place-flowers](https://github.com/peterlee13795/leet-code-history/tree/master/0605-can-place-flowers) |
@@ -208,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0531-lonely-pixel-i](https://github.com/peterlee13795/leet-code-history/tree/master/0531-lonely-pixel-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
@@ -341,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0419-battleships-in-a-board](https://github.com/peterlee13795/leet-code-history/tree/master/0419-battleships-in-a-board) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0505-the-maze-ii) |
+| [0531-lonely-pixel-i](https://github.com/peterlee13795/leet-code-history/tree/master/0531-lonely-pixel-i) |
 | [0723-candy-crush](https://github.com/peterlee13795/leet-code-history/tree/master/0723-candy-crush) |
 ## Simulation
 |  |
