@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0275-h-index-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/peterlee13795/leet-code-history/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0300-longest-increasing-subsequence) |
+| [0311-sparse-matrix-multiplication](https://github.com/peterlee13795/leet-code-history/tree/master/0311-sparse-matrix-multiplication) |
 | [0362-design-hit-counter](https://github.com/peterlee13795/leet-code-history/tree/master/0362-design-hit-counter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/peterlee13795/leet-code-history/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -208,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/peterlee13795/leet-code-history/tree/master/0128-longest-consecutive-sequence) |
 | [0268-missing-number](https://github.com/peterlee13795/leet-code-history/tree/master/0268-missing-number) |
+| [0311-sparse-matrix-multiplication](https://github.com/peterlee13795/leet-code-history/tree/master/0311-sparse-matrix-multiplication) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0531-lonely-pixel-i](https://github.com/peterlee13795/leet-code-history/tree/master/0531-lonely-pixel-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -339,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0240-search-a-2d-matrix-ii) |
+| [0311-sparse-matrix-multiplication](https://github.com/peterlee13795/leet-code-history/tree/master/0311-sparse-matrix-multiplication) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0419-battleships-in-a-board](https://github.com/peterlee13795/leet-code-history/tree/master/0419-battleships-in-a-board) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
