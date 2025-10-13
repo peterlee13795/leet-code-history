@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/peterlee13795/leet-code-history/tree/master/0540-single-element-in-a-sorted-array) |
 | [0605-can-place-flowers](https://github.com/peterlee13795/leet-code-history/tree/master/0605-can-place-flowers) |
+| [0616-add-bold-tag-in-string](https://github.com/peterlee13795/leet-code-history/tree/master/0616-add-bold-tag-in-string) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/peterlee13795/leet-code-history/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/peterlee13795/leet-code-history/tree/master/0713-subarray-product-less-than-k) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/peterlee13795/leet-code-history/tree/master/0392-is-subsequence) |
 | [0439-ternary-expression-parser](https://github.com/peterlee13795/leet-code-history/tree/master/0439-ternary-expression-parser) |
 | [0484-find-permutation](https://github.com/peterlee13795/leet-code-history/tree/master/0484-find-permutation) |
+| [0616-add-bold-tag-in-string](https://github.com/peterlee13795/leet-code-history/tree/master/0616-add-bold-tag-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0680-valid-palindrome-ii) |
 | [0785-basic-calculator-iii](https://github.com/peterlee13795/leet-code-history/tree/master/0785-basic-calculator-iii) |
 | [1076-brace-expansion](https://github.com/peterlee13795/leet-code-history/tree/master/1076-brace-expansion) |
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/peterlee13795/leet-code-history/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0531-lonely-pixel-i](https://github.com/peterlee13795/leet-code-history/tree/master/0531-lonely-pixel-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/peterlee13795/leet-code-history/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0616-add-bold-tag-in-string](https://github.com/peterlee13795/leet-code-history/tree/master/0616-add-bold-tag-in-string) |
 | [0621-task-scheduler](https://github.com/peterlee13795/leet-code-history/tree/master/0621-task-scheduler) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/peterlee13795/leet-code-history/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 ## Two Pointers
@@ -461,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0616-add-bold-tag-in-string](https://github.com/peterlee13795/leet-code-history/tree/master/0616-add-bold-tag-in-string) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
 ## Tree
 |  |
@@ -494,4 +498,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/peterlee13795/leet-code-history/tree/master/0718-maximum-length-of-repeated-subarray) |
+## String Matching
+|  |
+| ------- |
+| [0616-add-bold-tag-in-string](https://github.com/peterlee13795/leet-code-history/tree/master/0616-add-bold-tag-in-string) |
 <!---LeetCode Topics End-->
