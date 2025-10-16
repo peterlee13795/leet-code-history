@@ -1,15 +1,17 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-    int size = nums.length;
+        // sort n * logn
+        // Arrays.sort(nums);
 
-    for (int lindex = 0; lindex< size - 1; lindex++) {
-      for(int rindex = lindex + 1; rindex < size; rindex++) {
-        if(nums[lindex] + nums[rindex] == target) {
-          return new int[] {lindex, rindex};
+        // two-pointer n^2
+        int len = nums.length;
+        for(int i = 0; i < len - 1; i++) {
+            for(int j = i + 1; j < len; j++) {
+                if(nums[i] + nums[j] == target) return new int [] {i, j};
+            }
         }
-      }
-    }
-    return new int[]{-1, -1};
+        return null;
 
-  }
+
+    }
 }
