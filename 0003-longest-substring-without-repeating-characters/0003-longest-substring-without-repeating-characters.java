@@ -1,17 +1,31 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-    int[] index = new int[128]; // ASCII 문자 기준
-    int maxLength = 0;
-    int left = 0;
+        // maxlen
+        int maxlen = 0;
+        int len = s.length();
 
-    for (int right = 0; right < s.length(); right++) {
-        char c = s.charAt(right);
-        // 중복 문자가 있으면 left 갱신
-        left = Math.max(index[c], left);
-        maxLength = Math.max(maxLength, right - left + 1);
-        index[c] = right + 1; // 인덱스를 1-based로 저장
+        // 128 ascii code
+        int[] counts = new int[128];
+
+        // two-pointer (left, right)
+        int left = 0, right = 0;
+
+        // increase right
+        while(right < len) {
+            counts[s.charAt(right)]++;
+            
+            // if duplicated, than increase left
+            while(counts[s.charAt(right)] > 1 && left <= right) {
+                counts[s.charAt(left)]--;
+                left++;
+            }
+
+            // compare length
+            maxlen = Math.max(maxlen, right - left + 1);
+
+            right++;
+        }
+        // return
+        return maxlen;
     }
-
-    return maxLength;
-}
 }
