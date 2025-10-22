@@ -1,46 +1,48 @@
 class Solution {
-    boolean exist = false;
-    int[] dr = new int[]{-1, 1, 0, 0};
-    int[] dc = new int[]{0, 0, -1, 1};
-    int r, c;
+    int xlen = 0;
+    int ylen = 0;
+    int[] ydir = new int [] {-1,1,0,0};
+    int[] xdir = new int[] {0,0,-1,1};
+    int slen = 0;
 
     public boolean exist(char[][] board, String word) {
-        this.r = board.length;
-        this.c = board[0].length;
+        // direction list
+        this.ylen = board.length;
+        this.xlen = board[0].length;
+        this.slen = word.length();
 
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                if (board[i][j] != word.charAt(0)) continue;
+        // dfs call
 
-                dfs(new boolean[r][c], board, word, 1, i, j);
+        // iterate chars (y, x)
+        for(int yi = 0 ; yi < ylen; yi++) {
+            for(int xi = 0; xi < xlen; xi++) {
+                if(board[yi][xi] != word.charAt(0)) continue;
+                if(slen == 1) return true;
+                boolean[][] visits = new boolean[ylen][xlen];
+                visits[yi][xi] = true; // 시작점 방문 표시
 
-                if (exist) return true;
+                if(dfs(board, visits, word, yi, xi, 1)) return true;
             }
         }
-
+        
         return false;
     }
 
-    void dfs(boolean[][] visits, char[][] boards, String word, int index, int i, int j) {
-        if (visits[i][j] || exist) return;
-        visits[i][j] = true;
-
-        if (index == word.length()) {
-            exist = true;
-            return;
+    boolean dfs(char[][] board, boolean[][] visits, String word, int y, int x, int index) {
+        // iterate dir
+        for(int i = 0; i < 4; i++) {
+            int ny = y + this.ydir[i];
+            int nx = x + this.xdir[i];
+            if(ny < 0 || ny == this.ylen) continue;
+            if(nx < 0 || nx == this.xlen) continue;                
+            if(board[ny][nx] != word.charAt(index)) continue;
+            if(visits[ny][nx]) continue;
+            visits[ny][nx] = true;
+            if(index == this.slen - 1) return true;
+            if(dfs(board, visits, word, ny, nx, index+1)) return true;
+            visits[ny][nx] = false;
         }
 
-        for (int k = 0; k < 4; k++) {
-            int i2 = i + dr[k];
-            int j2 = j + dc[k];
-
-            if (i2 < 0 || i2 >= r || j2 < 0 || j2 >= c) continue;
-            if (boards[i2][j2] != word.charAt(index)) continue;
-
-            dfs(visits, boards, word, index + 1, i2, j2);
-        }
-
-        // ✅ 핵심: 백트래킹 처리
-        visits[i][j] = false;
+        return false;
     }
 }
