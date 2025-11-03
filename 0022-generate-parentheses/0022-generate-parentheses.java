@@ -1,38 +1,49 @@
 class Solution {
-    List<String> answer;
+    // answer
+    List<String> answer = new ArrayList<>();
+
+    // chars
+    char[] targets;
+
+    // size
+    int size;
+    int n;
+
     public List<String> generateParenthesis(int n) {
-        // init (char[n*2])
-        answer = new ArrayList<>();
-        char[] target = new char[n * 2];
-        target[0] = '(';
+        this.n = n;
+        this.size = n * 2;
+        targets = new char[size];
 
-        // backtrack
-        backtrack(target, 1, n, 1, 0, 1);
+        // dfs
+        dfs(0, 0, 0);
 
-        // return
         return answer;
     }
 
-    private void backtrack(char[] target, int index, int limit, int openCount, int closeCount, int priorOpen) {
-        // if(index == limit) => answer.add(char), continue;
-        if(index == limit * 2) {
-            answer.add(new String(target));
+    void dfs(int currentIndex, int openCount, int closeCount) {
+        // 재 개수가 6개 인 경우 답변 추가 & return
+        if(currentIndex == size) {
+            answer.add(new String(targets));
             return;
         }
 
-        /**
-         * case1: open이 오는 상황
-         *  open 개수가 n / 2 이하일 경우 => if(openCount < limit / 2) => char[index] = open; openCount++; priorOpen++;
-         * case2: close가 오는 상황
-         *  앞선 open 개수가 1개 이상 => if(priorOpen > 0 && closeCount < limit / 2) => char[index] = close; closeCount++;
-         */
-        if(openCount < limit) {
-            target[index] = '(';
-            backtrack(target, index+1, limit, openCount + 1, closeCount, priorOpen + 1);
+        // 열기
+        // 조건1: 열기 개수가 n개 보다 작을 경우
+        if(openCount < n) {
+            // 열기 입력 & 다음 dfs call
+            targets[currentIndex] = '(';
+            dfs(currentIndex + 1, openCount + 1, closeCount);
         }
-        if(closeCount < limit && priorOpen > 0) {
-            target[index] = ')';
-            backtrack(target, index+1, limit, openCount, closeCount + 1, priorOpen - 1);
+        
+        
+        // 닫기
+        // 조건1: 열기 개수가 남아있는 경우
+        // 조건2: 닫기 개수가 n개보다 작을 경우
+        int leftOpenCount = openCount - closeCount;
+        if(leftOpenCount > 0 && closeCount < n) {
+            // 닫기 입력 & 다음 dfs call
+            targets[currentIndex] = ')';
+            dfs(currentIndex + 1, openCount, closeCount + 1);
         }
     }
 }
