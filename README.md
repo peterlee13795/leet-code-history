@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/peterlee13795/leet-code-history/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/peterlee13795/leet-code-history/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/peterlee13795/leet-code-history/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/peterlee13795/leet-code-history/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/peterlee13795/leet-code-history/tree/master/0091-decode-ways) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/peterlee13795/leet-code-history/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/peterlee13795/leet-code-history/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/peterlee13795/leet-code-history/tree/master/0075-sort-colors) |
@@ -353,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/peterlee13795/leet-code-history/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/peterlee13795/leet-code-history/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/peterlee13795/leet-code-history/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/peterlee13795/leet-code-history/tree/master/0079-word-search) |
