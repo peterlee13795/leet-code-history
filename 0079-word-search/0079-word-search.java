@@ -27,28 +27,29 @@ class Solution {
         this.visits = new boolean[this.ylen][this.xlen];
         this.board = board;
         this.chars = word.toCharArray();
-        
+
         for(int y=0; y < this.ylen; y++) {
             for(int x=0; x < this.xlen; x++) {
-                if(dfs(y, x, 0)) {
+                if (board[y][x] == chars[0] && dfs(y, x, 0)) {
                     return true;
                 }
             }
         }
         return false;
     }
-    
-    
+
+
     boolean dfs(int y, int x, int clen) {
         if(this.board[y][x] != this.chars[clen]) return false;
         if(clen == this.wlen - 1) return true;
         this.visits[y][x] = true;
-        
+
         for(int i = 0 ; i < 4; i++) {
             int ny = y + this.ydir[i];
             int nx = x + this.xdir[i];
             if(ny <0 || ny >= this.ylen || nx < 0 || nx >= this.xlen || this.visits[ny][nx]) continue;
             if(dfs(ny, nx, clen + 1)) {
+                this.visits[y][x] = false;
                 return true;
             }
         }
