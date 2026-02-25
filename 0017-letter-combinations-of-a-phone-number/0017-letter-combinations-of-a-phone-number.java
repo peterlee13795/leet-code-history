@@ -1,40 +1,37 @@
 class Solution {
-    Map<Character, List<Character>> map = new HashMap<>();
-  List<String> answer = new ArrayList<>();
-  char[] node;
-  int len;
+    int len;
+    Map<Integer, List<Character>> mapper = new HashMap<>();
 
-  public List<String> letterCombinations(String digits) {
-    // init
-    this.len = digits.length();
-    if(this.len == 0) return answer;
-    
-    this.node = new char[len];
-    map.put('2', Arrays.asList('a', 'b', 'c'));
-    map.put('3', Arrays.asList('d', 'e', 'f'));
-    map.put('4', Arrays.asList('g', 'h', 'i'));
-    map.put('5', Arrays.asList('j', 'k', 'l'));
-    map.put('6', Arrays.asList('m', 'n', 'o'));
-    map.put('7', Arrays.asList('p', 'q', 'r', 's'));
-    map.put('8', Arrays.asList('t', 'u', 'v'));
-    map.put('9', Arrays.asList('w', 'x', 'y', 'z'));
+    public List<String> letterCombinations(String digits) {
+        mapper.put(1, Arrays.asList());
+        mapper.put(2, Arrays.asList('a', 'b', 'c'));
+        mapper.put(3, Arrays.asList('d', 'e', 'f'));
+        mapper.put(4, Arrays.asList('g', 'h', 'i'));
+        mapper.put(5, Arrays.asList('j', 'k', 'l'));
+        mapper.put(6, Arrays.asList('m', 'n', 'o'));
+        mapper.put(7, Arrays.asList('p', 'q', 'r', 's'));
+        mapper.put(8, Arrays.asList('t', 'u', 'v'));
+        mapper.put(9, Arrays.asList('w', 'x', 'y', 'z'));
 
-    // iterate digits
-    backtracking(digits, 0);
+        List<String> result = new ArrayList<>();
+        List<Integer> nums = new ArrayList<>();
+        this.len = digits.length();
+        if(len == 0) return result;
+        for(int i = 0; i < len ; i ++) {
+            nums.add(digits.charAt(i) - '0');
+        }
+        backtracking(nums, 0, result, "");
 
-    // return
-    return answer;
-  }
-
-  private void backtracking(String digits, int index) {
-    if (index == len) {
-      answer.add(new String(node));
-      return;
+        return result;
     }
-    List<Character> targets = map.get(digits.charAt(index));
-    for (char target : targets) {
-      node[index] = target;
-      backtracking(digits, index + 1);
+
+    void backtracking(List<Integer> digits, int index, List<String> result, String curr) {
+        Map<Integer, List<Character>> mapper = this.mapper;
+        boolean last = index == len - 1;
+        for(Character target: mapper.get(digits.get(index))) {
+            String next = curr + target;
+            if(last) result.add(next);
+            else backtracking(digits, index + 1, result, next);
+        }
     }
-  }
 }
