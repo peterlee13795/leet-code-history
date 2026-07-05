@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/peterlee13795/leet-code-history/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/peterlee13795/leet-code-history/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/peterlee13795/leet-code-history/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/peterlee13795/leet-code-history/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1196-filling-bookcase-shelves](https://github.com/peterlee13795/leet-code-history/tree/master/1196-filling-bookcase-shelves) |
 | [1200-remove-interval](https://github.com/peterlee13795/leet-code-history/tree/master/1200-remove-interval) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/peterlee13795/leet-code-history/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/peterlee13795/leet-code-history/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/peterlee13795/leet-code-history/tree/master/0912-random-pick-with-weight) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/peterlee13795/leet-code-history/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/peterlee13795/leet-code-history/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/peterlee13795/leet-code-history/tree/master/1397-search-suggestions-system) |
 | [2165-plates-between-candles](https://github.com/peterlee13795/leet-code-history/tree/master/2165-plates-between-candles) |
