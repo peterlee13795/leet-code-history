@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/peterlee13795/leet-code-history/tree/master/0207-course-schedule) |
 | [0490-the-maze](https://github.com/peterlee13795/leet-code-history/tree/master/0490-the-maze) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/peterlee13795/leet-code-history/tree/master/0200-number-of-islands) |
@@ -511,6 +513,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 | [0333-largest-bst-subtree](https://github.com/peterlee13795/leet-code-history/tree/master/0333-largest-bst-subtree) |
@@ -521,6 +524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/peterlee13795/leet-code-history/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/peterlee13795/leet-code-history/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/peterlee13795/leet-code-history/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/peterlee13795/leet-code-history/tree/master/0144-binary-tree-preorder-traversal) |
 | [0333-largest-bst-subtree](https://github.com/peterlee13795/leet-code-history/tree/master/0333-largest-bst-subtree) |
